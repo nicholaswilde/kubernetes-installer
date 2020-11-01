@@ -1,2 +1,2 @@
 # Kubernetes Installer
-Deploy installer on a Kubernetes cluster.
+Deploy [jpillora's](https://github.com/jpillora) [installer](https://github.com/jpillora/installer) on a Kubernetes cluster.
