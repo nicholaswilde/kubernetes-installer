@@ -46,7 +46,7 @@ See the **Usage** section at [installer](https://github.com/jpillora/installer#u
 ```bash
 $ kubectl get ingress -n transmission
 NAME           CLASS    HOSTS                               ADDRESS         PORTS   AGE
-installer   <none>   installer.192.168.1.202.nip.io   192.168.1.202   80      73m
+installer      <none>   installer.192.168.1.202.nip.io      192.168.1.202   80      73m
 ```
 Make sure the IP address in the `HOST` matches the one listed in `ADDRESS`
 
