@@ -38,7 +38,7 @@ Check that the pod is running correctly
 ```bash
 $ kubectl get pods -n installer
 NAME                           READY   STATUS    RESTARTS   AGE
-installer-94bc9d45b-9lrxr   1/1     Running   0          94m
+installer-94bc9d45b-9lrxr      1/1     Running   0          94m
 ```
 See the **Usage** section at [installer](https://github.com/jpillora/installer#usage).
 
@@ -46,7 +46,7 @@ See the **Usage** section at [installer](https://github.com/jpillora/installer#u
 ```bash
 $ kubectl get ingress -n transmission
 NAME           CLASS    HOSTS                               ADDRESS         PORTS   AGE
-installer   <none>   installer.192.168.1.202.nip.io   192.168.1.203   80      73m
+installer   <none>   installer.192.168.1.202.nip.io   192.168.1.202   80      73m
 ```
 Make sure the IP address in the `HOST` matches the one listed in `ADDRESS`
 
