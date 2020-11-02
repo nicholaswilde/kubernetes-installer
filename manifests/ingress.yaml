@@ -1,0 +1,16 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/whitelist-source-range: 192.168.1.0/24
+  name: installer
+  namespace: installer
+spec:
+  rules:
+  - host: installer.192.168.1.201.nip.io
+    http:
+      paths:
+      - backend:
+          serviceName: installer
+          servicePort: 3000
