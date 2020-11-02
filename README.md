@@ -1,6 +1,10 @@
 # Kubernetes Installer
 Deploy [jpillora's](https://github.com/jpillora) [installer](https://github.com/jpillora/installer) on a Kubernetes cluster.
 
+Quickly install pre-compiled binaries from Github releases.
+
+Installer is an HTTP server which returns shell scripts. The returned script will detect platform OS and architecture, choose from a selection of URLs, download the appropriate file, un(zip|tar|gzip) the file, find the binary (largest file) and optionally move it into your PATH. Useful for installing your favourite pre-compiled programs on hosts using only curl.
+
 ### Secret
 To change the `USER` and `GH_TOKEN` for the servo, run the following in the command line and paste the results into `secret.yaml`
 ```bash
