@@ -28,14 +28,11 @@ spec:
     spec:
       containers:
       - envFrom:
-        - configMapRef:
-            name: installer-config
-            optional: false
         - secretRef:
             name: installer-creds
             optional: true
-        image: nicholaswilde/installer:0.2.7
-        imagePullPolicy: ""
+        image: nicholaswilde/installer:0.2.9
+        imagePullPolicy: Always
         name: installer
         ports:
         - containerPort: 3000
