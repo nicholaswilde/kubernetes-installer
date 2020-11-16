@@ -1,3 +1,5 @@
+Although many of these recipes still work, this repo is now deprecated, moving work to https://github.com/nicholaswilde/helm-charts/tree/main/charts/installer, come join us there!
+
 # Kubernetes Installer
 Deploy [jpillora's](https://github.com/jpillora) [installer](https://github.com/jpillora/installer) on a Kubernetes cluster.
 
